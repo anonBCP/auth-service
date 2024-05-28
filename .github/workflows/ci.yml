@@ -27,7 +27,7 @@ jobs:
     # runs-on: self-hosted
     permissions: write-all
     env:
-      CONTAINER_NAME: 'akenarin-bangchak-auth-service-api'
+      CONTAINER_NAME: 'anon-bangchak-auth-service-api'
       DOCKER_IMAGE_URL: 'ghcr.io/${{ github.actor }}/${{ github.event.repository.name }}:${{  github.ref_name }}'
     steps:
     - name: executing remote ssh commands using password
